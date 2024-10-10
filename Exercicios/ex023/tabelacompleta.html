@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Completa</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;    
+        }
+
+       caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 10px;
+       }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Filmes e Series Favoritas.</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes/Séries</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Winnie Michievicy</td>
+                <td>Beekeper</td>
+                <td>After</td> 
+                <td>Lucifer</td>  
+            </tr>
+
+            <tr>
+                <td>Daiane Romanini</td>
+                <td>Prision Break</td>
+                <td>La Casa De Papel</td>   
+                <td>A Espera De Um Milagre</td>
+            </tr>
+
+            <tr>
+                <td>Sophia Marques</td>
+                <td>Chiquititas</td>
+                <td>Carrosel</td>
+                <td>Peppa Pig</td>
+            </tr>
+
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Vinicius Marques</td>
+                <td>Lucifer</td>
+                <td>Beekeper</td>
+                <td>Homem De Ferro</td>
+            </tr>
+
+            <tr>
+                <td>Elcio Marques</td>
+                <td>Rambo</td>
+                <td>O Protetor</td>
+                <td>Projeto Gemini</td>
+            </tr>
+
+            <tr>
+                <td>William Aragao</td>
+                <td>Prision Break</td>
+                <td>Breaking Bad</td>
+                <td>Vingança Sem Limite</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+
+    </table>
+   
+    
+</body>
+</html>
